@@ -1,4 +1,4 @@
 tasks:
-  - before: brew install astronomer/tap/astrocloud
+  - before: brew install astronomer/cloud/astrocloud
     init: echo 'y' | astrocloud dev init
     command: astrocloud dev start
